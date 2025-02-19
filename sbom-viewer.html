@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SBOM Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      max-width: 900px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #sbomInfo {
+      margin-bottom: 20px;
+      background: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+    .file-upload {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    /* Style for the custom file button */
+    #chooseFileButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    #chooseFileButton:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>SBOM Viewer</h1>
+  
+  <div class="file-upload">
+    <!-- Custom file selection button -->
+    <button id="chooseFileButton">Choose CycloneDX SBOM</button>
+    <!-- Hidden file input -->
+    <input type="file" id="fileInput" accept=".json" style="display: none;" />
+  </div>
+  
+  <!-- Global SBOM info -->
+  <div id="sbomInfo"></div>
+  
+  <!-- Components Table -->
+  <table id="componentsTable" style="display:none;">
+    <thead>
+      <tr>
+        <th>Supplier Name</th>
+        <th>Component Name</th>
+        <th>Version</th>
+        <th>Other Unique Identifiers</th>
+        <th>Dependency Relationship</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
+  <script>
+    // Trigger file input click when custom button is clicked
+    document.getElementById('chooseFileButton').addEventListener('click', function() {
+      document.getElementById('fileInput').click();
+    });
+    
+    // Helper function to return a table cell with a red background if value is missing.
+    function tdValue(value) {
+      return `<td${value === "N/A" ? ' style="background-color: #ffcccc;"' : ''}>${value}</td>`;
+    }
+    
+    // Listen for file selection
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const sbom = JSON.parse(e.target.result);
+          displaySBOM(sbom);
+        } catch (error) {
+          alert('Error parsing JSON file: ' + error);
+        }
+      };
+      reader.readAsText(file);
+    });
+    
+    function displaySBOM(sbom) {
+      // Display SBOM metadata info (Timestamp and Author of SBOM Data)
+      let infoHtml = '';
+      
+      // Timestamp handling
+      let timestamp = (sbom.metadata && sbom.metadata.timestamp) ? sbom.metadata.timestamp : "N/A";
+      let timestampDisplay = (timestamp === "N/A")
+        ? `<span style="background-color: #ffcccc;">${timestamp}</span>`
+        : timestamp;
+      
+      // Author handling (assumed from the first tool's author)
+      let author = "N/A";
+      if (sbom.metadata && sbom.metadata.tools && sbom.metadata.tools.components && sbom.metadata.tools.components.length > 0) {
+        author = sbom.metadata.tools.components[0].author || "N/A";
+      }
+      let authorDisplay = (author === "N/A")
+        ? `<span style="background-color: #ffcccc;">${author}</span>`
+        : author;
+      
+      infoHtml += '<p><strong>Timestamp:</strong> ' + timestampDisplay + '</p>';
+      infoHtml += '<p><strong>Author of SBOM Data:</strong> ' + authorDisplay + '</p>';
+      
+      document.getElementById('sbomInfo').innerHTML = infoHtml;
+      
+      // Populate the components table
+      const table = document.getElementById('componentsTable');
+      const tbody = table.querySelector('tbody');
+      tbody.innerHTML = ''; // Clear previous content
+      
+      if (sbom.components && sbom.components.length > 0) {
+        sbom.components.forEach(component => {
+          const tr = document.createElement('tr');
+          
+          // Supplier Name: Use "N/A" if missing.
+          let supplierName = "N/A";
+          if (component.supplier) {
+            supplierName = component.supplier.name || "N/A";
+          }
+          
+          // Component Name and Version
+          let componentName = component.name || "N/A";
+          let version = component.version || "N/A";
+          
+          // Other Unique Identifiers: Only display purl and cpe.
+          let identifiers = '';
+          if (component.purl) {
+            identifiers += '<strong>purl:</strong> ' + component.purl + '<br>';
+          }
+          if (component.cpe) {
+            identifiers += '<strong>cpe:</strong> ' + component.cpe + '<br>';
+          }
+          if (!identifiers) {
+            identifiers = 'N/A';
+          }
+          
+          // Dependency Relationship: Check the top-level dependencies (if provided)
+          let dependencyRelationship = 'N/A';
+          if (sbom.dependencies && Array.isArray(sbom.dependencies)) {
+            // Try to match dependency info using the component's bom-ref.
+            const dep = sbom.dependencies.find(d => d.ref === component["bom-ref"]);
+            if (dep && dep.dependsOn && dep.dependsOn.length > 0) {
+              dependencyRelationship = dep.dependsOn.join(', ');
+            }
+          }
+          
+          // Create table row with cells using tdValue (which marks missing values in red)
+          tr.innerHTML = tdValue(supplierName) +
+                         tdValue(componentName) +
+                         tdValue(version) +
+                         tdValue(identifiers) +
+                         tdValue(dependencyRelationship);
+          tbody.appendChild(tr);
+        });
+        table.style.display = 'table';
+      } else {
+        tbody.innerHTML = '<tr><td colspan="5">No components found in the SBOM.</td></tr>';
+        table.style.display = 'table';
+      }
+    }
+  </script>
+</body>
+</html>
