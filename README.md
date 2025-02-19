@@ -54,7 +54,7 @@ This command scans the current directory and saves the SBOM as `sbom.json`.
 
 ### 5. View the SBOM
 
-Open your web browser and navigate to the SBOM File Viewer (https://mrtoaf.github.io/archimedes-sbom/).
+Open your web browser and navigate to the [SBOM File Viewer](https://mrtoaf.github.io/archimedes-sbom/).
 
 Click on the **"Choose CycloneDX SBOM"** button to upload your `sbom.json` file and view the parsed SBOM details.
 
