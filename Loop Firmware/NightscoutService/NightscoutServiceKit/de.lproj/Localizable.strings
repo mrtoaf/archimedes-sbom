@@ -1,0 +1,35 @@
+/* The remote action name for Bolus Entry */
+"Bolus Entry" = "Boluseintrag";
+
+/* The remote action name for Cancel Override */
+"Cancel Override" = "Override abbrechen";
+
+/* The remote action name for Carb Entry */
+"Carb Entry" = "KH-Eintrag";
+
+/* Name of custom override */
+"Custom Override" = "Benutzerdefinierter Override";
+
+/* Remote command error description: expired. */
+"Expired" = "Abgelaufen";
+
+/* Remote command error description: Missing OTP. */
+"Missing OTP" = "Fehlendes OTP";
+
+/* The title of the Nightscout service */
+"Nightscout" = "Nightscout";
+
+/* The remote action name for Override */
+"Override" = "Override";
+
+/* Name of pre-meal workout override
+   Name uploaded to Nightscout for Pre-Meal override */
+"Pre-Meal" = "Vor dem Essen";
+
+/* The remote action abbreviation for bolus units */
+"U" = "IE";
+
+/* Name of legacy workout override
+   Name uploaded to Nightscout for legacy workout override */
+"Workout" = "Training";
+

@@ -1,0 +1,57 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API Secret";
+
+/* No comment provided by engineer. */
+"Are you sure you want to reset the secret key?" = "Czy na pewno chcesz zresetować secret key?";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "Anuluj";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Sprawdzanie...";
+
+/* Button title to delete a service */
+"Delete Service" = "Usuń usługę";
+
+/* No comment provided by engineer. */
+"Done" = "Gotowe";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Login";
+
+/* No comment provided by engineer. */
+"Logout" = "Wylogowanie";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "Nightscout Login";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "Niedostępne";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"One-Time Password" = "Hasło jednorazowe";
+
+/* The default placeholder for required text */
+"Required" = "Wymagane";
+
+/* No comment provided by engineer. */
+"Reset Secret Key" = "Zresetuj Secret Key";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "Strona URL";
+
+/* No comment provided by engineer. */
+"Status" = "Status";
+
+/* No comment provided by engineer. */
+"URL" = "URL";
+

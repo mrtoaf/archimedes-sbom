@@ -1,0 +1,30 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Partager anonymement des données minimales sur cette version de Loop, pour aider les développeurs à comprendre combien de personnes utilisent Loop. L'appareil et la version du système d'exploitation seront également partagés.";
+
+/* Button title for choosing onboarding without nightscout */
+"Continue" = "Continuer";
+
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Ne partager aucune donnée.";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "En plus des informations de version, partagez anonymement des données sur la façon dont Loop est utilisé sur votre téléphone. Les données d’utilisation comprennent des événements tels que l’ouverture de boucle, les bolus, l’ajout de glucides et la navigation entre les écrans. Il n’inclut pas les données de santé telles que les valeurs de glucose ou les quantités de dosage.";
+
+/* Title for LoopKit Analytics */
+"LoopKit Analytics" = "LoopKit Analytics";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Pas de partage";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Partager les données";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Partager les données d'utilisation";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Partager la version uniquement";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Vous pouvez éventuellement choisir de partager les données d'utilisation avec les développeurs de Loop pour améliorer Loop. Le partage n'est pas nécessaire et Loop fonctionnera pleinement, quelle que soit l'option choisie. Les données d'utilisation ne seront pas partagées avec des tiers.";
+

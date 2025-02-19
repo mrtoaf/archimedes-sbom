@@ -1,0 +1,48 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API Secret";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "Avbryt";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Kontrollerar...";
+
+/* Button title to delete a service */
+"Delete Service" = "Ta bort tjänst";
+
+/* No comment provided by engineer. */
+"Done" = "Färdig";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Logga in";
+
+/* No comment provided by engineer. */
+"Logout" = "Logga ut";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "Nightscout inloggning";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "Inte tillgänglig";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* The default placeholder for required text */
+"Required" = "Krävs";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "Nightscout-URL";
+
+/* No comment provided by engineer. */
+"Status" = "Status";
+
+/* No comment provided by engineer. */
+"URL" = "URL";
+

@@ -1,0 +1,18 @@
+/* The title of the Nightscout API secret credential */
+"API Secret" = "API Secret";
+
+/* Button text to Cancel in Nightscout Disclaimer view */
+"Cancel" = "Zrušit";
+
+/* Button text to Continue in Nightscout Disclaimer view */
+"Continue" = "Pokračovat";
+
+/* No comment provided by engineer. */
+"Done" = "Hotovo";
+
+/* Title for the CGMManager option */
+"Nightscout Remote CGM" = "Nightscout Vzdálené CGM";
+
+/* No comment provided by engineer. */
+"Status" = "Status";
+

@@ -1,0 +1,57 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "מפתח API";
+
+/* No comment provided by engineer. */
+"Are you sure you want to reset the secret key?" = "בטוח שברצונך לאפס את מפתח ה-API?";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "ביטול";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "בודק...";
+
+/* Button title to delete a service */
+"Delete Service" = "מחק שירות";
+
+/* No comment provided by engineer. */
+"Done" = "סיום";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "כניסה";
+
+/* No comment provided by engineer. */
+"Logout" = "יציאה";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "שם משתמש";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "לא זמין";
+
+/* Description of ServiceStatus of checking */
+"OK" = "תקין";
+
+/* No comment provided by engineer. */
+"One-Time Password" = "סיסמה חד-פעמית";
+
+/* The default placeholder for required text */
+"Required" = "חובה";
+
+/* No comment provided by engineer. */
+"Reset Secret Key" = "אתחל מפתח API";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "כתובת האתר";
+
+/* No comment provided by engineer. */
+"Status" = "מצב";
+
+/* No comment provided by engineer. */
+"URL" = "כתובת URL";
+

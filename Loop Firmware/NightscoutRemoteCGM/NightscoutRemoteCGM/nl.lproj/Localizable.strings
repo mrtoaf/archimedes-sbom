@@ -1,0 +1,43 @@
+/* The title of the Nightscout API secret credential */
+"API Secret" = "API Secret";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this CGM?" = "Weet je zeker dat je deze CGM wilt verwijderen?";
+
+/* Button text to Cancel in Nightscout Disclaimer view */
+"Cancel" = "Annuleer";
+
+/* No comment provided by engineer. */
+"CGM Settings" = "CGM Instellingen";
+
+/* (No Comment) */
+"Close" = "Sluiten";
+
+/* Button text to Continue in Nightscout Disclaimer view */
+"Continue" = "Ga Verder";
+
+/* (No Comment) */
+"Delete CGM" = "Verwijder CGM";
+
+/* No comment provided by engineer. */
+"Done" = "Gereed";
+
+/* The title of the Nightscout service
+   Title for the CGMManager option */
+"Nightscout Remote CGM" = "Nightscout Remote CGM";
+
+/* No comment provided by engineer. */
+"Status" = "Status";
+
+/* (No Comment) */
+"Upload to remote service" = "Uploaden naar een remote service";
+
+/* The title of the Nightscout API server URL credential */
+"URL" = "URL";
+
+/* (No Comment) */
+"Use glucose filter" = "Gebruik glucose filter";
+
+/* (No Comment) */
+"Use Kalman filter to smooth out a sensor noise." = "Gebruik het Kalman filter om sensorruis af te vlakken.";
+

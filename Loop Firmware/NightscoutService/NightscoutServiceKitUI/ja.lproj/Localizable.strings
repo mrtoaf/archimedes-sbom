@@ -1,0 +1,27 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "APIシークレット";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "キャンセル";
+
+/* Button title to delete a service */
+"Delete Service" = "Delete Service";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* The default placeholder for required text */
+"Required" = "必須";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "URL";
+
+/* No comment provided by engineer. */
+"Status" = "ステータス";
+

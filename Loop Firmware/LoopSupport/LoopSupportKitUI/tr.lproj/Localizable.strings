@@ -1,0 +1,36 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Geliştiricilerin Loop'u kaç kişinin kullandığını bilmelerine yardımcı olmak için bu Loop sürümüyle ilgili minimum verileri anonim olarak paylaşın. Hangi cihaz olduğu ve işletim sistemi sürümü de paylaşılacaktır.";
+
+/* Button title for choosing onboarding without nightscout */
+"Continue" = "Devam et";
+
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Herhangi bir veri paylaşmayın.";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Sürüm bilgilerine ek olarak, Loop'un telefonunuzda nasıl kullanıldığına ilişkin verileri anonim olarak paylaşın. Kullanım verileri, Loop'u açma, bolus gönderme, karbonhidrat ekleme ve ekranlar arasında gezinme gibi olayları içerir. KŞ değerleri veya dozaj miktarları gibi sağlık verilerini içermez.";
+
+/* Title for LoopKit Analytics */
+"LoopKit Analytics" = "LoopKit Analizi";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Paylaşım Yok";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Veri Paylaşımı";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Kullanım Verilerini Paylaşın";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Yalnızca Sürümü Paylaş";
+
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Hata Raporu Gönder";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Kullanım Verisi Paylaşımı";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Loop'u iyileştirmek için isteğe bağlı olarak Loop geliştiricileri ile kullanım verilerini paylaşmayı seçebilirsiniz. Paylaşım gerekli değildir ve hangi seçeneği seçerseniz seçin Loop tam olarak çalışacaktır. Kullanım verileri üçüncü şahıslarla paylaşılmayacaktır.";
+

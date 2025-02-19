@@ -1,0 +1,41 @@
+/* The remote action name for Bolus Entry */
+"Bolus Entry" = "Ввод болюса";
+
+/* The remote action name for Cancel Override */
+"Cancel Override" = "Отмена переопределения";
+
+/* The remote action name for Carb Entry */
+"Carb Entry" = "Ввод углеводов";
+
+/* Name of custom override */
+"Custom Override" = "Настраиваемое ручное управление";
+
+/* Remote command error description: expired. */
+"Expired" = "Истек срок действия команды";
+
+/* The remote action abbreviation for gram units */
+"g" = "г";
+
+/* Remote command error description: Missing OTP. */
+"Missing OTP" = "Отсутствует одноразовый пароль";
+
+/* The title of the Nightscout service */
+"Nightscout" = "Nightscout";
+
+/* The remote action name for Override */
+"Override" = "Переопределение";
+
+/* Name of pre-meal workout override
+   Name uploaded to Nightscout for Pre-Meal override */
+"Pre-Meal" = "До еды";
+
+/* The remote action abbreviation for bolus units */
+"U" = "Ед";
+
+/* The prefix for the remote unhandled notification error. (1: notification payload) */
+"Unhandled Notification: %1$@" = "Необработанное уведомление: %1$@";
+
+/* Name of legacy workout override
+   Name uploaded to Nightscout for legacy workout override */
+"Workout" = "Физическая нагрузка";
+

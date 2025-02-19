@@ -1,0 +1,36 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Partajați în mod anonim date minime despre această versiune Loop, pentru a ajuta dezvoltatorii să știe câți oameni folosesc Loop. Ce dispozitiv și versiunea sistemului de operare vor fi, de asemenea, partajate.";
+
+/* Button title for choosing onboarding without nightscout */
+"Continue" = "Continuă";
+
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Nu partajați niciun fel de date.";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Pe lângă informațiile despre versiune, partajați în mod anonim date despre modul în care Loop este utilizat pe telefonul dvs. Datele de utilizare includ evenimente precum deschiderea buclei, bolusarea, adăugarea de carbohidrați și navigarea între ecrane. Nu include date de sănătate, cum ar fi valorile glucozei sau cantitățile de dozare.";
+
+/* Title for LoopKit Analytics */
+"LoopKit Analytics" = "Analitice LoopKit";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Fără partajare";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Partajați datele";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Partajați datele de utilizare";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Partajați numai versiunea";
+
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Raportare probleme";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Partajarea datelor de utilizare";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Puteți alege opțional să partajați datele de utilizare cu dezvoltatorii Loop pentru a îmbunătăți Loop. Partajarea nu este necesară, iar Loop va funcționa pe deplin, indiferent de opțiunea pe care o alegeți. Datele de utilizare nu vor fi partajate cu terțe părți.";
+

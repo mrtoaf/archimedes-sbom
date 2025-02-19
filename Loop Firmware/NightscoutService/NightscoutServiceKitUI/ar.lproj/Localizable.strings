@@ -1,0 +1,18 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API Secret";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "إلغاء";
+
+/* No comment provided by engineer. */
+"Nightscout" = "نايتسكاوت";
+
+/* Description of ServiceStatus of checking */
+"OK" = "موافق";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "رابط الموقع";
+
+/* No comment provided by engineer. */
+"Status" = "الحالة";
+

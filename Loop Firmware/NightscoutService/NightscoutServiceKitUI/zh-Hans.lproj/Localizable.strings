@@ -1,0 +1,21 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API密码";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "取消";
+
+/* Button title to delete a service */
+"Delete Service" = "Delete Service";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* The default placeholder for required text */
+"Required" = "需要";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "网址";
+
+/* No comment provided by engineer. */
+"Status" = "状态";
+

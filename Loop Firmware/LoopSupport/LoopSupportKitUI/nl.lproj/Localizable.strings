@@ -1,0 +1,36 @@
+/* Description in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Anonymously share minimal data about this Loop version, to help developers know how many people are using Loop. Which device, and operating system version will also be shared." = "Deel anoniem een minimale hoeveelheid gegevens over deze versie van Loop, zodat ontwikkelaars weten hoeveel mensen Loop gebruiken. Het type apparaat en de versie van het besturingssysteem wordt ook gedeeld.";
+
+/* Button title for choosing onboarding without nightscout */
+"Continue" = "Ga Verder";
+
+/* Description in UsageDataPrivacyPreferenceView for no sharing */
+"Do not share any data." = "Deel geen gegevens";
+
+/* Description in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"In addition to version information, anonymously share data about how Loop is being used on your phone. Usage data includes events like opening loop, bolusing, adding carbs, and navigating between screens. It does not include health data like glucose values or dosing amounts." = "Naast versiegegevens kun je anoniem gegevens delen over hoe Loop op je telefoon wordt gebruikt. Gebruiksgegevens omvatten gebeurtenissen zoals het openen van Loop, bolussen, het toevoegen koolhydraten en het navigeren tussen schermen. Het bevat geen gezondheidsgegevens zoals glucosewaarden of doseringhoeveelheden.";
+
+/* Title for LoopKit Analytics */
+"LoopKit Analytics" = "LoopKit Analytics";
+
+/* Title in UsageDataPrivacyPreferenceView for no sharing */
+"No Sharing" = "Niet Delen";
+
+/* Title on UsageDataPrivacyPreferenceView */
+"Share Data" = "Deel Gegevens";
+
+/* Title in UsageDataPrivacyPreferenceView for shareUsageDetailsWithDevelopers */
+"Share Usage Data" = "Deel Gebruiksgegevens";
+
+/* Title in UsageDataPrivacyPreferenceView for shareInstallationStatsOnly */
+"Share Version Only" = "Deel Alleen Versie";
+
+/* Navigation link title for Submit Bug Report */
+"Submit Bug Report" = "Bugrapport Indienen";
+
+/* Navigation Link Title for Usage Data Sharing */
+"Usage Data Sharing" = "Gebruiksgegevens Delen";
+
+/* Main summary text for UsageDataPrivacyPreferenceView */
+"You can optionally choose to share usage data with Loop developers to improve Loop. Sharing is not required, and Loop will function fully no matter which option you choose. Usage data will not be shared with third parties." = "Je kunt ervoor kiezen om gebruiksgegevens te delen met de ontwikkelaars van Loop om Loop te verbeteren. Het delen is niet vereist en Loop zal volledig functioneren, ongeacht welke optie je kiest. Gebruiksgegevens worden niet gedeeld met derden.";
+

@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9183E2C22BC4A11002B4E34 /* AmplitudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9183E2B22BC4A11002B4E34 /* AmplitudeService.swift */; };
+		A9183E2E22BC4A2C002B4E34 /* AmplitudeService+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9183E2D22BC4A2C002B4E34 /* AmplitudeService+UI.swift */; };
+		A9183E3422BC4C0F002B4E34 /* AmplitudeServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9183E3322BC4C0F002B4E34 /* AmplitudeServiceTableViewController.swift */; };
+		A92E3BC322BC3CC300B9AF51 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E3BC222BC3CC300B9AF51 /* LoopKitUI.framework */; };
+		A92E3BC422BC3CC900B9AF51 /* AmplitudeServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */; };
+		A92E3BC622BC3CD800B9AF51 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E3BC522BC3CD800B9AF51 /* LoopKit.framework */; };
+		A9927CA022BC29950006B7E9 /* AmplitudeServiceKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A9927C9222BC29940006B7E9 /* AmplitudeServiceKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99C7115233963BE00AB9035 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C7114233963BE00AB9035 /* OSLog.swift */; };
+		A9A1EE8522BC59F900DFACDA /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE8422BC59F900DFACDA /* IdentifiableClass.swift */; };
+		A9A1EE8722BC5AA100DFACDA /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE8622BC5AA100DFACDA /* NibLoadable.swift */; };
+		A9A1EE8C22BC5BB400DFACDA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE8B22BC5BB400DFACDA /* UIColor.swift */; };
+		A9B0078322BD5761000131DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B0078122BD5761000131DE /* Localizable.strings */; };
+		A9B0079E22BD5B7D000131DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B0079C22BD5B7D000131DE /* Localizable.strings */; };
+		A9B007AA22BD6D37000131DE /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B007A922BD6D37000131DE /* LocalizedString.swift */; };
+		A9B007AC22BD6D99000131DE /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B007A922BD6D37000131DE /* LocalizedString.swift */; };
+		A9C7BE5622B9A7C0001F3FB4 /* AmplitudeServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C7BE4822B9A7C0001F3FB4 /* AmplitudeServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C7BE8F22B9F6FA001F3FB4 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE8D22B9F6FA001F3FB4 /* LoopKit.framework */; };
+		A9FC98E02333EFE10010CBD2 /* AmplitudeServiceKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FC98DE2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FC98EA2333F8C90010CBD2 /* AmplitudeServiceKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC98E92333F8C90010CBD2 /* AmplitudeServiceKitPlugin.swift */; };
+		C135E036295DFB4F0020258D /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = C135E035295DFB4F0020258D /* Amplitude */; };
+		C19C8BD028651F8B0056D5E4 /* AmplitudeServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */; platformFilter = ios; };
+		C19C8BD128651F8B0056D5E4 /* AmplitudeServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C19C8BD428651F8B0056D5E4 /* AmplitudeServiceKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9927C9022BC29940006B7E9 /* AmplitudeServiceKitUI.framework */; platformFilter = ios; };
+		C19C8BD528651F8B0056D5E4 /* AmplitudeServiceKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9927C9022BC29940006B7E9 /* AmplitudeServiceKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1D0B10225658C1000676998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D0B10125658C1000676998 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92E3BC722BC3D9100B9AF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C7BE4422B9A7C0001F3FB4;
+			remoteInfo = AmplitudeServiceKit;
+		};
+		A9FC98E42333F7EF0010CBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C7BE4422B9A7C0001F3FB4;
+			remoteInfo = AmplitudeServiceKit;
+		};
+		A9FC98E62333F7EF0010CBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9927C8F22BC29940006B7E9;
+			remoteInfo = AmplitudeServiceKitUI;
+		};
+		C19C8BD228651F8B0056D5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C7BE4422B9A7C0001F3FB4;
+			remoteInfo = AmplitudeServiceKit;
+		};
+		C19C8BD628651F8B0056D5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9927C8F22BC29940006B7E9;
+			remoteInfo = AmplitudeServiceKitUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C19C8BD828651F8B0056D5E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C19C8BD128651F8B0056D5E4 /* AmplitudeServiceKit.framework in Embed Frameworks */,
+				C19C8BD528651F8B0056D5E4 /* AmplitudeServiceKitUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9183E2B22BC4A11002B4E34 /* AmplitudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeService.swift; sourceTree = "<group>"; };
+		A9183E2D22BC4A2C002B4E34 /* AmplitudeService+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AmplitudeService+UI.swift"; sourceTree = "<group>"; };
+		A9183E3322BC4C0F002B4E34 /* AmplitudeServiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeServiceTableViewController.swift; sourceTree = "<group>"; };
+		A92E3BC222BC3CC300B9AF51 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92E3BC522BC3CD800B9AF51 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9303DEA22BC41B100F49C3F /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9303DED22BC41CF00F49C3F /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9927C9022BC29940006B7E9 /* AmplitudeServiceKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmplitudeServiceKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9927C9222BC29940006B7E9 /* AmplitudeServiceKitUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeServiceKitUI.h; sourceTree = "<group>"; };
+		A9927C9322BC29940006B7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99C7114233963BE00AB9035 /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		A9A1EE8422BC59F900DFACDA /* IdentifiableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
+		A9A1EE8622BC5AA100DFACDA /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		A9A1EE8B22BC5BB400DFACDA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A9B0078222BD5761000131DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078522BD5769000131DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078622BD576A000131DE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078722BD576B000131DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078822BD576D000131DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078922BD576D000131DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9B0078A22BD576F000131DE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078B22BD5770000131DE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078C22BD5771000131DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0078D22BD5772000131DE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0079D22BD5B7D000131DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B0079F22BD5B83000131DE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A022BD5B84000131DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A122BD5B85000131DE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A222BD5B86000131DE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A322BD5B88000131DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9B007A422BD5B88000131DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A522BD5B8A000131DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A622BD5B8B000131DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A722BD5B8B000131DE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007A922BD6D37000131DE /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmplitudeServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C7BE4822B9A7C0001F3FB4 /* AmplitudeServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeServiceKit.h; sourceTree = "<group>"; };
+		A9C7BE4922B9A7C0001F3FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C7BE8D22B9F6FA001F3FB4 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C7BE8E22B9F6FA001F3FB4 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FC98DC2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmplitudeServiceKitPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FC98DE2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeServiceKitPlugin.h; sourceTree = "<group>"; };
+		A9FC98DF2333EFE10010CBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FC98E92333F8C90010CBD2 /* AmplitudeServiceKitPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeServiceKitPlugin.swift; sourceTree = "<group>"; };
+		C121D8C829C7866D00DA0520 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C15A581529C7866600D3A5A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C15A581629C7866600D3A5A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1C2477A2995823200371B88 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1D0B10125658C1000676998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1FAB5B829C786B000D25073 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C04E27DAC395002E48F6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C04F27DAC395002E48F6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05027DAC3A8002E48F6 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05127DAC3A8002E48F6 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05227DAC3BF002E48F6 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05327DAC3BF002E48F6 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05427DAC3CC002E48F6 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05527DAC3CC002E48F6 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05627DAC3D1002E48F6 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05727DAC3D1002E48F6 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05827DAC3D7002E48F6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05927DAC3D7002E48F6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3427E1E0B00033557E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3527E1E0B00033557E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3627E1E0B80033557E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3727E1E0B80033557E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3827E1E0C00033557E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5E0BE3927E1E0C00033557E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9927C8D22BC29940006B7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E3BC622BC3CD800B9AF51 /* LoopKit.framework in Frameworks */,
+				A92E3BC322BC3CC300B9AF51 /* LoopKitUI.framework in Frameworks */,
+				A92E3BC422BC3CC900B9AF51 /* AmplitudeServiceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE4222B9A7C0001F3FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C135E036295DFB4F0020258D /* Amplitude in Frameworks */,
+				A9C7BE8F22B9F6FA001F3FB4 /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC98D92333EFE10010CBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19C8BD028651F8B0056D5E4 /* AmplitudeServiceKit.framework in Frameworks */,
+				C19C8BD428651F8B0056D5E4 /* AmplitudeServiceKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9927C9122BC29940006B7E9 /* AmplitudeServiceKitUI */ = {
+			isa = PBXGroup;
+			children = (
+				A9927C9222BC29940006B7E9 /* AmplitudeServiceKitUI.h */,
+				A9927C9322BC29940006B7E9 /* Info.plist */,
+				A9183E2D22BC4A2C002B4E34 /* AmplitudeService+UI.swift */,
+				A9183E3322BC4C0F002B4E34 /* AmplitudeServiceTableViewController.swift */,
+				A9A1EE8422BC59F900DFACDA /* IdentifiableClass.swift */,
+				A9A1EE8622BC5AA100DFACDA /* NibLoadable.swift */,
+				A9A1EE8822BC5B6800DFACDA /* Extensions */,
+				A9B0079C22BD5B7D000131DE /* Localizable.strings */,
+				C1D0B10125658C1000676998 /* Assets.xcassets */,
+			);
+			path = AmplitudeServiceKitUI;
+			sourceTree = "<group>";
+		};
+		A99C713E23396D4200AB9035 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A99C7114233963BE00AB9035 /* OSLog.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9A1EE8822BC5B6800DFACDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9A1EE8B22BC5BB400DFACDA /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9B007AB22BD6D92000131DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A9B007A922BD6D37000131DE /* LocalizedString.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A9C7BE3B22B9A7C0001F3FB4 = {
+			isa = PBXGroup;
+			children = (
+				A9B007AB22BD6D92000131DE /* Common */,
+				A99C713E23396D4200AB9035 /* Extensions */,
+				A9C7BE4722B9A7C0001F3FB4 /* AmplitudeServiceKit */,
+				A9927C9122BC29940006B7E9 /* AmplitudeServiceKitUI */,
+				A9FC98DD2333EFE10010CBD2 /* AmplitudeServiceKitPlugin */,
+				A9C7BE4622B9A7C0001F3FB4 /* Products */,
+				A9C7BE8C22B9F6FA001F3FB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C7BE4622B9A7C0001F3FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */,
+				A9927C9022BC29940006B7E9 /* AmplitudeServiceKitUI.framework */,
+				A9FC98DC2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.loopplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C7BE4722B9A7C0001F3FB4 /* AmplitudeServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9C7BE4822B9A7C0001F3FB4 /* AmplitudeServiceKit.h */,
+				A9C7BE4922B9A7C0001F3FB4 /* Info.plist */,
+				A9183E2B22BC4A11002B4E34 /* AmplitudeService.swift */,
+				A9B0078122BD5761000131DE /* Localizable.strings */,
+			);
+			path = AmplitudeServiceKit;
+			sourceTree = "<group>";
+		};
+		A9C7BE8C22B9F6FA001F3FB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92E3BC522BC3CD800B9AF51 /* LoopKit.framework */,
+				A9303DEA22BC41B100F49C3F /* LoopKit.framework */,
+				A9C7BE8D22B9F6FA001F3FB4 /* LoopKit.framework */,
+				A9303DED22BC41CF00F49C3F /* LoopKitUI.framework */,
+				A92E3BC222BC3CC300B9AF51 /* LoopKitUI.framework */,
+				A9C7BE8E22B9F6FA001F3FB4 /* LoopKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9FC98DD2333EFE10010CBD2 /* AmplitudeServiceKitPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC98DE2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.h */,
+				A9FC98DF2333EFE10010CBD2 /* Info.plist */,
+				A9FC98E92333F8C90010CBD2 /* AmplitudeServiceKitPlugin.swift */,
+			);
+			path = AmplitudeServiceKitPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9927C8B22BC29940006B7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9927CA022BC29950006B7E9 /* AmplitudeServiceKitUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE4022B9A7C0001F3FB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C7BE5622B9A7C0001F3FB4 /* AmplitudeServiceKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC98D72333EFE10010CBD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC98E02333EFE10010CBD2 /* AmplitudeServiceKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A9927C8F22BC29940006B7E9 /* AmplitudeServiceKitUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9927CA522BC29950006B7E9 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKitUI" */;
+			buildPhases = (
+				A9927C8B22BC29940006B7E9 /* Headers */,
+				A9927C8C22BC29940006B7E9 /* Sources */,
+				A9927C8D22BC29940006B7E9 /* Frameworks */,
+				A9927C8E22BC29940006B7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92E3BC822BC3D9100B9AF51 /* PBXTargetDependency */,
+			);
+			name = AmplitudeServiceKitUI;
+			packageProductDependencies = (
+			);
+			productName = AmplitudeServiceKitUI;
+			productReference = A9927C9022BC29940006B7E9 /* AmplitudeServiceKitUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9C7BE4422B9A7C0001F3FB4 /* AmplitudeServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C7BE5922B9A7C0001F3FB4 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKit" */;
+			buildPhases = (
+				A9C7BE4022B9A7C0001F3FB4 /* Headers */,
+				A9C7BE4122B9A7C0001F3FB4 /* Sources */,
+				A9C7BE4222B9A7C0001F3FB4 /* Frameworks */,
+				A9C7BE4322B9A7C0001F3FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmplitudeServiceKit;
+			packageProductDependencies = (
+				C135E035295DFB4F0020258D /* Amplitude */,
+			);
+			productName = AmplitudeService;
+			productReference = A9C7BE4522B9A7C0001F3FB4 /* AmplitudeServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9FC98DB2333EFE10010CBD2 /* AmplitudeServiceKitPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FC98E32333EFE10010CBD2 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKitPlugin" */;
+			buildPhases = (
+				A9FC98D72333EFE10010CBD2 /* Headers */,
+				A9FC98D82333EFE10010CBD2 /* Sources */,
+				A9FC98D92333EFE10010CBD2 /* Frameworks */,
+				A9FC98DA2333EFE10010CBD2 /* Resources */,
+				C19C8BD828651F8B0056D5E4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FC98E52333F7EF0010CBD2 /* PBXTargetDependency */,
+				A9FC98E72333F7EF0010CBD2 /* PBXTargetDependency */,
+				C19C8BD328651F8B0056D5E4 /* PBXTargetDependency */,
+				C19C8BD728651F8B0056D5E4 /* PBXTargetDependency */,
+			);
+			name = AmplitudeServiceKitPlugin;
+			packageProductDependencies = (
+			);
+			productName = AmplitudeServiceKitPlugin;
+			productReference = A9FC98DC2333EFE10010CBD2 /* AmplitudeServiceKitPlugin.loopplugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C7BE3C22B9A7C0001F3FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "LoopKit Authors";
+				TargetAttributes = {
+					A9927C8F22BC29940006B7E9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A9C7BE4422B9A7C0001F3FB4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A9FC98DB2333EFE10010CBD2 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = A9C7BE3F22B9A7C0001F3FB4 /* Build configuration list for PBXProject "AmplitudeService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ru,
+				fr,
+				de,
+				"zh-Hans",
+				it,
+				nl,
+				nb,
+				pl,
+				da,
+				fi,
+				ro,
+				sv,
+				vi,
+				tr,
+				he,
+				ja,
+				"pt-BR",
+				sk,
+				ar,
+				cs,
+				hi,
+			);
+			mainGroup = A9C7BE3B22B9A7C0001F3FB4;
+			packageReferences = (
+				C135E034295DFB4F0020258D /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+			);
+			productRefGroup = A9C7BE4622B9A7C0001F3FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C7BE4422B9A7C0001F3FB4 /* AmplitudeServiceKit */,
+				A9927C8F22BC29940006B7E9 /* AmplitudeServiceKitUI */,
+				A9FC98DB2333EFE10010CBD2 /* AmplitudeServiceKitPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9927C8E22BC29940006B7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D0B10225658C1000676998 /* Assets.xcassets in Resources */,
+				A9B0079E22BD5B7D000131DE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE4322B9A7C0001F3FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B0078322BD5761000131DE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC98DA2333EFE10010CBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9927C8C22BC29940006B7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9183E2E22BC4A2C002B4E34 /* AmplitudeService+UI.swift in Sources */,
+				A9A1EE8C22BC5BB400DFACDA /* UIColor.swift in Sources */,
+				A9B007AC22BD6D99000131DE /* LocalizedString.swift in Sources */,
+				A9A1EE8722BC5AA100DFACDA /* NibLoadable.swift in Sources */,
+				A9183E3422BC4C0F002B4E34 /* AmplitudeServiceTableViewController.swift in Sources */,
+				A9A1EE8522BC59F900DFACDA /* IdentifiableClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE4122B9A7C0001F3FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B007AA22BD6D37000131DE /* LocalizedString.swift in Sources */,
+				A9183E2C22BC4A11002B4E34 /* AmplitudeService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC98D82333EFE10010CBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C7115233963BE00AB9035 /* OSLog.swift in Sources */,
+				A9FC98EA2333F8C90010CBD2 /* AmplitudeServiceKitPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92E3BC822BC3D9100B9AF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C7BE4422B9A7C0001F3FB4 /* AmplitudeServiceKit */;
+			targetProxy = A92E3BC722BC3D9100B9AF51 /* PBXContainerItemProxy */;
+		};
+		A9FC98E52333F7EF0010CBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C7BE4422B9A7C0001F3FB4 /* AmplitudeServiceKit */;
+			targetProxy = A9FC98E42333F7EF0010CBD2 /* PBXContainerItemProxy */;
+		};
+		A9FC98E72333F7EF0010CBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9927C8F22BC29940006B7E9 /* AmplitudeServiceKitUI */;
+			targetProxy = A9FC98E62333F7EF0010CBD2 /* PBXContainerItemProxy */;
+		};
+		C19C8BD328651F8B0056D5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = A9C7BE4422B9A7C0001F3FB4 /* AmplitudeServiceKit */;
+			targetProxy = C19C8BD228651F8B0056D5E4 /* PBXContainerItemProxy */;
+		};
+		C19C8BD728651F8B0056D5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = A9927C8F22BC29940006B7E9 /* AmplitudeServiceKitUI */;
+			targetProxy = C19C8BD628651F8B0056D5E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B0078122BD5761000131DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B0078222BD5761000131DE /* Base */,
+				A9B0078522BD5769000131DE /* fr */,
+				A9B0078622BD576A000131DE /* es */,
+				A9B0078722BD576B000131DE /* ru */,
+				A9B0078822BD576D000131DE /* de */,
+				A9B0078922BD576D000131DE /* zh-Hans */,
+				A9B0078A22BD576F000131DE /* it */,
+				A9B0078B22BD5770000131DE /* pl */,
+				A9B0078C22BD5771000131DE /* nb */,
+				A9B0078D22BD5772000131DE /* nl */,
+				F5D9C04E27DAC395002E48F6 /* da */,
+				F5D9C05027DAC3A8002E48F6 /* fi */,
+				F5D9C05227DAC3BF002E48F6 /* ro */,
+				F5D9C05427DAC3CC002E48F6 /* sv */,
+				F5D9C05627DAC3D1002E48F6 /* vi */,
+				F5D9C05827DAC3D7002E48F6 /* tr */,
+				F5E0BE3427E1E0B00033557E /* he */,
+				F5E0BE3627E1E0B80033557E /* ja */,
+				F5E0BE3827E1E0C00033557E /* pt-BR */,
+				C15A581529C7866600D3A5A1 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A9B0079C22BD5B7D000131DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B0079D22BD5B7D000131DE /* Base */,
+				A9B0079F22BD5B83000131DE /* pl */,
+				A9B007A022BD5B84000131DE /* nb */,
+				A9B007A122BD5B85000131DE /* nl */,
+				A9B007A222BD5B86000131DE /* it */,
+				A9B007A322BD5B88000131DE /* zh-Hans */,
+				A9B007A422BD5B88000131DE /* fr */,
+				A9B007A522BD5B8A000131DE /* de */,
+				A9B007A622BD5B8B000131DE /* ru */,
+				A9B007A722BD5B8B000131DE /* es */,
+				F5D9C04F27DAC395002E48F6 /* da */,
+				F5D9C05127DAC3A8002E48F6 /* fi */,
+				F5D9C05327DAC3BF002E48F6 /* ro */,
+				F5D9C05527DAC3CC002E48F6 /* sv */,
+				F5D9C05727DAC3D1002E48F6 /* vi */,
+				F5D9C05927DAC3D7002E48F6 /* tr */,
+				F5E0BE3527E1E0B00033557E /* he */,
+				F5E0BE3727E1E0B80033557E /* ja */,
+				F5E0BE3927E1E0C00033557E /* pt-BR */,
+				C1C2477A2995823200371B88 /* sk */,
+				C15A581629C7866600D3A5A1 /* ar */,
+				C121D8C829C7866D00DA0520 /* cs */,
+				C1FAB5B829C786B000D25073 /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9927CA122BC29950006B7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKitUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9927CA222BC29950006B7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKitUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9C7BE5722B9A7C0001F3FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
+				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CLANG_WARN_COMMA = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES_ERROR;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = YES_ERROR;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES_ERROR;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES_ERROR;
+				CLANG_WARN_MISSING_NOESCAPE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES_ERROR;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN_VEXING_PARSE = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		A9C7BE5822B9A7C0001F3FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
+				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CLANG_WARN_COMMA = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES_ERROR;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = YES_ERROR;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES_ERROR;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES_ERROR;
+				CLANG_WARN_MISSING_NOESCAPE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES_ERROR;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN_VEXING_PARSE = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		A9C7BE5A22B9A7C0001F3FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C7BE5B22B9A7C0001F3FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++17";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9FC98E12333EFE10010CBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKitPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Debug;
+		};
+		A9FC98E22333EFE10010CBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AmplitudeServiceKitPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.AmplitudeServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9927CA522BC29950006B7E9 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9927CA122BC29950006B7E9 /* Debug */,
+				A9927CA222BC29950006B7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C7BE3F22B9A7C0001F3FB4 /* Build configuration list for PBXProject "AmplitudeService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C7BE5722B9A7C0001F3FB4 /* Debug */,
+				A9C7BE5822B9A7C0001F3FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C7BE5922B9A7C0001F3FB4 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C7BE5A22B9A7C0001F3FB4 /* Debug */,
+				A9C7BE5B22B9A7C0001F3FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FC98E32333EFE10010CBD2 /* Build configuration list for PBXNativeTarget "AmplitudeServiceKitPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FC98E12333EFE10010CBD2 /* Debug */,
+				A9FC98E22333EFE10010CBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C135E034295DFB4F0020258D /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C135E035295DFB4F0020258D /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C135E034295DFB4F0020258D /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9C7BE3C22B9A7C0001F3FB4 /* Project object */;
+}

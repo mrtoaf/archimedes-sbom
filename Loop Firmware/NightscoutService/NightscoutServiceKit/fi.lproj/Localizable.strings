@@ -1,0 +1,14 @@
+/* Name of custom override */
+"Custom Override" = "Mukautettu tilapäisasetus";
+
+/* The title of the Nightscout service */
+"Nightscout" = "Nightscout";
+
+/* Name of pre-meal workout override
+   Name uploaded to Nightscout for Pre-Meal override */
+"Pre-Meal" = "Ennen ateriaa";
+
+/* Name of legacy workout override
+   Name uploaded to Nightscout for legacy workout override */
+"Workout" = "Liikunta";
+

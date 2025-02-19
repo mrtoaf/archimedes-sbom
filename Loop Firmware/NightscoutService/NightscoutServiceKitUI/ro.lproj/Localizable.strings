@@ -1,0 +1,57 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "Secretul API";
+
+/* No comment provided by engineer. */
+"Are you sure you want to reset the secret key?" = "Sunteți sigur/ă că doriți să resetați cheia secretă?";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "Renunță";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Se verifică...";
+
+/* Button title to delete a service */
+"Delete Service" = "Șterge serviciul";
+
+/* No comment provided by engineer. */
+"Done" = "Realizat";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Autentificare";
+
+/* No comment provided by engineer. */
+"Logout" = "Deconectare";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "Autentificare Nightscout";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "Indisponibil";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"One-Time Password" = "Parolă de unică folosință";
+
+/* The default placeholder for required text */
+"Required" = "Necesar";
+
+/* No comment provided by engineer. */
+"Reset Secret Key" = "Cheia secretă de resetare";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "URL site";
+
+/* No comment provided by engineer. */
+"Status" = "Stare";
+
+/* No comment provided by engineer. */
+"URL" = "URL";
+

@@ -1,0 +1,6 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "एपीआई पास्वर्ड";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "निरस्त";
+

@@ -1,0 +1,48 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API-salasana";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "Kumoa";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Tarkistetaan...";
+
+/* Button title to delete a service */
+"Delete Service" = "Poista palvelu";
+
+/* No comment provided by engineer. */
+"Done" = "Valmis";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Kirjaudu";
+
+/* No comment provided by engineer. */
+"Logout" = "Kirjaudu ulos";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "Kirjaudu Nightscoutiin";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "Ei käytettävissä";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* The default placeholder for required text */
+"Required" = "Pakollinen";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "URL";
+
+/* No comment provided by engineer. */
+"Status" = "Tila";
+
+/* No comment provided by engineer. */
+"URL" = "URL";
+

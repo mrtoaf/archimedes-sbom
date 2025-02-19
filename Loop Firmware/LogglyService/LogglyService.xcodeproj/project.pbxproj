@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92E3BCD22BC3F4500B9AF51 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E3BCB22BC3F4500B9AF51 /* LoopKit.framework */; };
+		A92E3BCE22BC3F4500B9AF51 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E3BCC22BC3F4500B9AF51 /* LoopKitUI.framework */; };
+		A92E3BCF22BC3F4700B9AF51 /* LogglyServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */; };
+		A9927CBC22BC29CC0006B7E9 /* LogglyServiceKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A9927CAE22BC29CC0006B7E9 /* LogglyServiceKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99C711F233965F000AB9035 /* LogglyServiceKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A99C711D233965F000AB9035 /* LogglyServiceKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99C7124233966AD00AB9035 /* LogglyServiceKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C7123233966AD00AB9035 /* LogglyServiceKitPlugin.swift */; };
+		A99C71262339674300AB9035 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C71252339674300AB9035 /* OSLog.swift */; };
+		A9A1EE8E22BC5D6400DFACDA /* LogglyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE8D22BC5D6400DFACDA /* LogglyService.swift */; };
+		A9A1EE9122BC5D7C00DFACDA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE9022BC5D7C00DFACDA /* UIColor.swift */; };
+		A9A1EE9322BC5D9200DFACDA /* LogglyService+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE9222BC5D9200DFACDA /* LogglyService+UI.swift */; };
+		A9A1EE9522BC5DA100DFACDA /* LogglyServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE9422BC5DA100DFACDA /* LogglyServiceTableViewController.swift */; };
+		A9A1EE9722BC5DB400DFACDA /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE9622BC5DB400DFACDA /* IdentifiableClass.swift */; };
+		A9A1EE9922BC5DC200DFACDA /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A1EE9822BC5DC200DFACDA /* NibLoadable.swift */; };
+		A9B007B022BD6FE9000131DE /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B007AF22BD6FE9000131DE /* LocalizedString.swift */; };
+		A9B007B122BD6FE9000131DE /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B007AF22BD6FE9000131DE /* LocalizedString.swift */; };
+		A9B007B722BD70E3000131DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B007B522BD70E3000131DE /* Localizable.strings */; };
+		A9B007BA22BD7107000131DE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B007B822BD7107000131DE /* Localizable.strings */; };
+		A9C7BE7A22B9A812001F3FB4 /* LogglyServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C7BE6C22B9A812001F3FB4 /* LogglyServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E4177722BBF869000D3BE9 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E4177522BBF869000D3BE9 /* LoopKit.framework */; };
+		C1F0E0A7286514DB009EC038 /* LogglyServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */; };
+		C1F0E0A8286514DB009EC038 /* LogglyServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1F0E0AA286514DC009EC038 /* LogglyServiceKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9927CAC22BC29CC0006B7E9 /* LogglyServiceKitUI.framework */; };
+		C1F0E0AB286514DC009EC038 /* LogglyServiceKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9927CAC22BC29CC0006B7E9 /* LogglyServiceKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92E3BC922BC3DE600B9AF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE6022B9A812001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C7BE6822B9A812001F3FB4;
+			remoteInfo = LogglyServiceKit;
+		};
+		A99C71272339692000AB9035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE6022B9A812001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C7BE6822B9A812001F3FB4;
+			remoteInfo = LogglyServiceKit;
+		};
+		A99C71292339692000AB9035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C7BE6022B9A812001F3FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9927CAB22BC29CC0006B7E9;
+			remoteInfo = LogglyServiceKitUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1F0E0A9286514DB009EC038 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C1F0E0A8286514DB009EC038 /* LogglyServiceKit.framework in Embed Frameworks */,
+				C1F0E0AB286514DC009EC038 /* LogglyServiceKitUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A92E3BCB22BC3F4500B9AF51 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92E3BCC22BC3F4500B9AF51 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9927CAC22BC29CC0006B7E9 /* LogglyServiceKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogglyServiceKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9927CAE22BC29CC0006B7E9 /* LogglyServiceKitUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogglyServiceKitUI.h; sourceTree = "<group>"; };
+		A9927CAF22BC29CC0006B7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99C711B233965F000AB9035 /* LogglyServiceKitPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogglyServiceKitPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C711D233965F000AB9035 /* LogglyServiceKitPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogglyServiceKitPlugin.h; sourceTree = "<group>"; };
+		A99C711E233965F000AB9035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99C7123233966AD00AB9035 /* LogglyServiceKitPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogglyServiceKitPlugin.swift; sourceTree = "<group>"; };
+		A99C71252339674300AB9035 /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		A9A1EE8D22BC5D6400DFACDA /* LogglyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogglyService.swift; sourceTree = "<group>"; };
+		A9A1EE9022BC5D7C00DFACDA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A9A1EE9222BC5D9200DFACDA /* LogglyService+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogglyService+UI.swift"; sourceTree = "<group>"; };
+		A9A1EE9422BC5DA100DFACDA /* LogglyServiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogglyServiceTableViewController.swift; sourceTree = "<group>"; };
+		A9A1EE9622BC5DB400DFACDA /* IdentifiableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
+		A9A1EE9822BC5DC200DFACDA /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		A9B007AF22BD6FE9000131DE /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		A9B007B622BD70E3000131DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007B922BD7107000131DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C122BD714A000131DE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C322BD714F000131DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9B007C422BD7151000131DE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C522BD7152000131DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C622BD7153000131DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C722BD7154000131DE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C822BD7155000131DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007C922BD7156000131DE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007CA22BD7157000131DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007CC22BD715E000131DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9B007CD22BD715F000131DE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007CE22BD7160000131DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007CF22BD7161000131DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007D022BD7162000131DE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007D122BD7163000131DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007D222BD7163000131DE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007D322BD7164000131DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9B007D422BD7165000131DE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogglyServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C7BE6C22B9A812001F3FB4 /* LogglyServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogglyServiceKit.h; sourceTree = "<group>"; };
+		A9C7BE6D22B9A812001F3FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CBEE0C22BC4480004ECA4F /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CBEE0F22BC449B004ECA4F /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E4177522BBF869000D3BE9 /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E4177622BBF869000D3BE9 /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C121D8CE29C7866D00DA0520 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C15A581E29C7866600D3A5A1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1C247862995823200371B88 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1C247872995823200371B88 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1FAB5BD29C786B000D25073 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05A27DAC4AD002E48F6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05B27DAC4AD002E48F6 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05C27DAC4BA002E48F6 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05D27DAC4BA002E48F6 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05E27DAC4CA002E48F6 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C05F27DAC4CA002E48F6 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06027DAC4D5002E48F6 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06127DAC4D5002E48F6 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06227DAC4DD002E48F6 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06327DAC4DD002E48F6 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06427DAC4F1002E48F6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06527DAC4F1002E48F6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06627DAC506002E48F6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5D9C06727DAC506002E48F6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5D9C06827DAC519002E48F6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5D9C06927DAC519002E48F6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3227E1E0940033557E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5E0BE3327E1E0940033557E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9927CA922BC29CC0006B7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92E3BCF22BC3F4700B9AF51 /* LogglyServiceKit.framework in Frameworks */,
+				A92E3BCD22BC3F4500B9AF51 /* LoopKit.framework in Frameworks */,
+				A92E3BCE22BC3F4500B9AF51 /* LoopKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C7118233965F000AB9035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0E0A7286514DB009EC038 /* LogglyServiceKit.framework in Frameworks */,
+				C1F0E0AA286514DC009EC038 /* LogglyServiceKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE6622B9A812001F3FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E4177722BBF869000D3BE9 /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9927CAD22BC29CC0006B7E9 /* LogglyServiceKitUI */ = {
+			isa = PBXGroup;
+			children = (
+				A9927CAE22BC29CC0006B7E9 /* LogglyServiceKitUI.h */,
+				A9927CAF22BC29CC0006B7E9 /* Info.plist */,
+				A9A1EE9622BC5DB400DFACDA /* IdentifiableClass.swift */,
+				A9A1EE9222BC5D9200DFACDA /* LogglyService+UI.swift */,
+				A9A1EE9422BC5DA100DFACDA /* LogglyServiceTableViewController.swift */,
+				A9A1EE9822BC5DC200DFACDA /* NibLoadable.swift */,
+				A9A1EE8F22BC5D6B00DFACDA /* Extensions */,
+				A9B007B822BD7107000131DE /* Localizable.strings */,
+			);
+			path = LogglyServiceKitUI;
+			sourceTree = "<group>";
+		};
+		A99C711C233965F000AB9035 /* LogglyServiceKitPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A99C711D233965F000AB9035 /* LogglyServiceKitPlugin.h */,
+				A99C711E233965F000AB9035 /* Info.plist */,
+				A99C7123233966AD00AB9035 /* LogglyServiceKitPlugin.swift */,
+			);
+			path = LogglyServiceKitPlugin;
+			sourceTree = "<group>";
+		};
+		A99C713F23396D4B00AB9035 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A99C71252339674300AB9035 /* OSLog.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9A1EE8F22BC5D6B00DFACDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9A1EE9022BC5D7C00DFACDA /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9B007AD22BD6F9F000131DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A9B007AF22BD6FE9000131DE /* LocalizedString.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A9C7BE5F22B9A812001F3FB4 = {
+			isa = PBXGroup;
+			children = (
+				A9B007AD22BD6F9F000131DE /* Common */,
+				A99C713F23396D4B00AB9035 /* Extensions */,
+				A9C7BE6B22B9A812001F3FB4 /* LogglyServiceKit */,
+				A9927CAD22BC29CC0006B7E9 /* LogglyServiceKitUI */,
+				A99C711C233965F000AB9035 /* LogglyServiceKitPlugin */,
+				A9C7BE6A22B9A812001F3FB4 /* Products */,
+				A9E4177422BBF869000D3BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C7BE6A22B9A812001F3FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */,
+				A9927CAC22BC29CC0006B7E9 /* LogglyServiceKitUI.framework */,
+				A99C711B233965F000AB9035 /* LogglyServiceKitPlugin.loopplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C7BE6B22B9A812001F3FB4 /* LogglyServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9C7BE6C22B9A812001F3FB4 /* LogglyServiceKit.h */,
+				A9C7BE6D22B9A812001F3FB4 /* Info.plist */,
+				A9A1EE8D22BC5D6400DFACDA /* LogglyService.swift */,
+				A9B007B522BD70E3000131DE /* Localizable.strings */,
+			);
+			path = LogglyServiceKit;
+			sourceTree = "<group>";
+		};
+		A9E4177422BBF869000D3BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92E3BCB22BC3F4500B9AF51 /* LoopKit.framework */,
+				A9CBEE0C22BC4480004ECA4F /* LoopKit.framework */,
+				A9E4177522BBF869000D3BE9 /* LoopKit.framework */,
+				A9CBEE0F22BC449B004ECA4F /* LoopKitUI.framework */,
+				A92E3BCC22BC3F4500B9AF51 /* LoopKitUI.framework */,
+				A9E4177622BBF869000D3BE9 /* LoopKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9927CA722BC29CC0006B7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9927CBC22BC29CC0006B7E9 /* LogglyServiceKitUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C7116233965F000AB9035 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C711F233965F000AB9035 /* LogglyServiceKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE6422B9A812001F3FB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C7BE7A22B9A812001F3FB4 /* LogglyServiceKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A9927CAB22BC29CC0006B7E9 /* LogglyServiceKitUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9927CC122BC29CC0006B7E9 /* Build configuration list for PBXNativeTarget "LogglyServiceKitUI" */;
+			buildPhases = (
+				A9927CA722BC29CC0006B7E9 /* Headers */,
+				A9927CA822BC29CC0006B7E9 /* Sources */,
+				A9927CA922BC29CC0006B7E9 /* Frameworks */,
+				A9927CAA22BC29CC0006B7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92E3BCA22BC3DE600B9AF51 /* PBXTargetDependency */,
+			);
+			name = LogglyServiceKitUI;
+			productName = LogglyServiceKitUI;
+			productReference = A9927CAC22BC29CC0006B7E9 /* LogglyServiceKitUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A99C711A233965F000AB9035 /* LogglyServiceKitPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C7122233965F000AB9035 /* Build configuration list for PBXNativeTarget "LogglyServiceKitPlugin" */;
+			buildPhases = (
+				A99C7116233965F000AB9035 /* Headers */,
+				A99C7117233965F000AB9035 /* Sources */,
+				A99C7118233965F000AB9035 /* Frameworks */,
+				A99C7119233965F000AB9035 /* Resources */,
+				C1F0E0A9286514DB009EC038 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99C71282339692000AB9035 /* PBXTargetDependency */,
+				A99C712A2339692000AB9035 /* PBXTargetDependency */,
+			);
+			name = LogglyServiceKitPlugin;
+			productName = LogglyServiceKitPlugin;
+			productReference = A99C711B233965F000AB9035 /* LogglyServiceKitPlugin.loopplugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9C7BE6822B9A812001F3FB4 /* LogglyServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C7BE7D22B9A812001F3FB4 /* Build configuration list for PBXNativeTarget "LogglyServiceKit" */;
+			buildPhases = (
+				A9C7BE6422B9A812001F3FB4 /* Headers */,
+				A9C7BE6522B9A812001F3FB4 /* Sources */,
+				A9C7BE6622B9A812001F3FB4 /* Frameworks */,
+				A9C7BE6722B9A812001F3FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogglyServiceKit;
+			productName = LogglyService;
+			productReference = A9C7BE6922B9A812001F3FB4 /* LogglyServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C7BE6022B9A812001F3FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "LoopKit Authors";
+				TargetAttributes = {
+					A9927CAB22BC29CC0006B7E9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A99C711A233965F000AB9035 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					A9C7BE6822B9A812001F3FB4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A9C7BE6322B9A812001F3FB4 /* Build configuration list for PBXProject "LogglyService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				nl,
+				fr,
+				de,
+				it,
+				nb,
+				pl,
+				ru,
+				es,
+				da,
+				fi,
+				ro,
+				sv,
+				vi,
+				ja,
+				"pt-BR",
+				tr,
+				he,
+				sk,
+				ar,
+				cs,
+				hi,
+			);
+			mainGroup = A9C7BE5F22B9A812001F3FB4;
+			productRefGroup = A9C7BE6A22B9A812001F3FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C7BE6822B9A812001F3FB4 /* LogglyServiceKit */,
+				A9927CAB22BC29CC0006B7E9 /* LogglyServiceKitUI */,
+				A99C711A233965F000AB9035 /* LogglyServiceKitPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9927CAA22BC29CC0006B7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B007BA22BD7107000131DE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C7119233965F000AB9035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE6722B9A812001F3FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B007B722BD70E3000131DE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9927CA822BC29CC0006B7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A1EE9722BC5DB400DFACDA /* IdentifiableClass.swift in Sources */,
+				A9A1EE9122BC5D7C00DFACDA /* UIColor.swift in Sources */,
+				A9B007B122BD6FE9000131DE /* LocalizedString.swift in Sources */,
+				A9A1EE9322BC5D9200DFACDA /* LogglyService+UI.swift in Sources */,
+				A9A1EE9922BC5DC200DFACDA /* NibLoadable.swift in Sources */,
+				A9A1EE9522BC5DA100DFACDA /* LogglyServiceTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99C7117233965F000AB9035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C71262339674300AB9035 /* OSLog.swift in Sources */,
+				A99C7124233966AD00AB9035 /* LogglyServiceKitPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C7BE6522B9A812001F3FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B007B022BD6FE9000131DE /* LocalizedString.swift in Sources */,
+				A9A1EE8E22BC5D6400DFACDA /* LogglyService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92E3BCA22BC3DE600B9AF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C7BE6822B9A812001F3FB4 /* LogglyServiceKit */;
+			targetProxy = A92E3BC922BC3DE600B9AF51 /* PBXContainerItemProxy */;
+		};
+		A99C71282339692000AB9035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C7BE6822B9A812001F3FB4 /* LogglyServiceKit */;
+			targetProxy = A99C71272339692000AB9035 /* PBXContainerItemProxy */;
+		};
+		A99C712A2339692000AB9035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9927CAB22BC29CC0006B7E9 /* LogglyServiceKitUI */;
+			targetProxy = A99C71292339692000AB9035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B007B522BD70E3000131DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B007B622BD70E3000131DE /* Base */,
+				A9B007C122BD714A000131DE /* es */,
+				A9B007C322BD714F000131DE /* zh-Hans */,
+				A9B007C422BD7151000131DE /* nl */,
+				A9B007C522BD7152000131DE /* fr */,
+				A9B007C622BD7153000131DE /* de */,
+				A9B007C722BD7154000131DE /* it */,
+				A9B007C822BD7155000131DE /* nb */,
+				A9B007C922BD7156000131DE /* pl */,
+				A9B007CA22BD7157000131DE /* ru */,
+				F5D9C05A27DAC4AD002E48F6 /* da */,
+				F5D9C05C27DAC4BA002E48F6 /* fi */,
+				F5D9C05E27DAC4CA002E48F6 /* ro */,
+				F5D9C06027DAC4D5002E48F6 /* sv */,
+				F5D9C06227DAC4DD002E48F6 /* vi */,
+				F5D9C06427DAC4F1002E48F6 /* ja */,
+				F5D9C06627DAC506002E48F6 /* pt-BR */,
+				F5D9C06827DAC519002E48F6 /* tr */,
+				F5E0BE3227E1E0940033557E /* he */,
+				C1C247862995823200371B88 /* sk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A9B007B822BD7107000131DE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B007B922BD7107000131DE /* Base */,
+				A9B007CC22BD715E000131DE /* zh-Hans */,
+				A9B007CD22BD715F000131DE /* nl */,
+				A9B007CE22BD7160000131DE /* fr */,
+				A9B007CF22BD7161000131DE /* de */,
+				A9B007D022BD7162000131DE /* it */,
+				A9B007D122BD7163000131DE /* nb */,
+				A9B007D222BD7163000131DE /* pl */,
+				A9B007D322BD7164000131DE /* ru */,
+				A9B007D422BD7165000131DE /* es */,
+				F5D9C05B27DAC4AD002E48F6 /* da */,
+				F5D9C05D27DAC4BA002E48F6 /* fi */,
+				F5D9C05F27DAC4CA002E48F6 /* ro */,
+				F5D9C06127DAC4D5002E48F6 /* sv */,
+				F5D9C06327DAC4DD002E48F6 /* vi */,
+				F5D9C06527DAC4F1002E48F6 /* ja */,
+				F5D9C06727DAC506002E48F6 /* pt-BR */,
+				F5D9C06927DAC519002E48F6 /* tr */,
+				F5E0BE3327E1E0940033557E /* he */,
+				C1C247872995823200371B88 /* sk */,
+				C15A581E29C7866600D3A5A1 /* ar */,
+				C121D8CE29C7866D00DA0520 /* cs */,
+				C1FAB5BD29C786B000D25073 /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9927CBD22BC29CC0006B7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKitUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9927CBE22BC29CC0006B7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKitUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A99C7120233965F000AB9035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKitPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Debug;
+		};
+		A99C7121233965F000AB9035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKitPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Release;
+		};
+		A9C7BE7B22B9A812001F3FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
+				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CLANG_WARN_COMMA = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES_ERROR;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = YES_ERROR;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES_ERROR;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES_ERROR;
+				CLANG_WARN_MISSING_NOESCAPE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES_ERROR;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN_VEXING_PARSE = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		A9C7BE7C22B9A812001F3FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES_ERROR;
+				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CLANG_WARN_COMMA = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES_ERROR;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = YES_ERROR;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES_ERROR;
+				CLANG_WARN_FLOAT_CONVERSION = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES_ERROR;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES_ERROR;
+				CLANG_WARN_MISSING_NOESCAPE = YES_ERROR;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES_ERROR;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES_ERROR;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
+				CLANG_WARN_VEXING_PARSE = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES_ERROR;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFLocalizedString,
+					LocalizedString,
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		A9C7BE7E22B9A812001F3FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C7BE7F22B9A812001F3FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogglyServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.LogglyServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9927CC122BC29CC0006B7E9 /* Build configuration list for PBXNativeTarget "LogglyServiceKitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9927CBD22BC29CC0006B7E9 /* Debug */,
+				A9927CBE22BC29CC0006B7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C7122233965F000AB9035 /* Build configuration list for PBXNativeTarget "LogglyServiceKitPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99C7120233965F000AB9035 /* Debug */,
+				A99C7121233965F000AB9035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C7BE6322B9A812001F3FB4 /* Build configuration list for PBXProject "LogglyService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C7BE7B22B9A812001F3FB4 /* Debug */,
+				A9C7BE7C22B9A812001F3FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C7BE7D22B9A812001F3FB4 /* Build configuration list for PBXNativeTarget "LogglyServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C7BE7E22B9A812001F3FB4 /* Debug */,
+				A9C7BE7F22B9A812001F3FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C7BE6022B9A812001F3FB4 /* Project object */;
+}

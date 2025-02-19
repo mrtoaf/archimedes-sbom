@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849523BD2A25DCE9003AC2FD /* MixpanelServiceKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B582A25CC760080127C /* MixpanelServiceKitPlugin.swift */; };
+		849523BE2A25DCFC003AC2FD /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B5C2A25CCB00080127C /* OSLog.swift */; };
+		849523BF2A25DD1E003AC2FD /* MixpanelServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */; };
+		849523C02A25DD1E003AC2FD /* MixpanelServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		849523C32A25DD1E003AC2FD /* MixpanelServiceKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B282A25CB600080127C /* MixpanelServiceKitUI.framework */; };
+		849523C42A25DD1E003AC2FD /* MixpanelServiceKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B282A25CB600080127C /* MixpanelServiceKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84F28B1F2A25CB350080127C /* MixpanelServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F28B1E2A25CB350080127C /* MixpanelServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84F28B2B2A25CB600080127C /* MixpanelServiceKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F28B2A2A25CB600080127C /* MixpanelServiceKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84F28B3C2A25CB850080127C /* MixpanelServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */; };
+		84F28B502A25CC040080127C /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 84F28B4F2A25CC040080127C /* Mixpanel */; };
+		84F28B632A25CCF10080127C /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B612A25CCE80080127C /* LocalizedString.swift */; };
+		84F28B642A25CCF20080127C /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B612A25CCE80080127C /* LocalizedString.swift */; };
+		84F28B662A25CD0F0080127C /* MixpanelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B652A25CD0F0080127C /* MixpanelService.swift */; };
+		84F28B682A25D1950080127C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F28B672A25D1950080127C /* Localizable.strings */; };
+		84F28B6B2A25D1D80080127C /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B6A2A25D1D80080127C /* IdentifiableClass.swift */; };
+		84F28B6D2A25D1F40080127C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B6C2A25D1F40080127C /* UIColor.swift */; };
+		84F28B6F2A25D20E0080127C /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B6E2A25D20E0080127C /* NibLoadable.swift */; };
+		84F28B712A25D2480080127C /* MixpanelService+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B702A25D2480080127C /* MixpanelService+UI.swift */; };
+		84F28B732A25D27D0080127C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F28B722A25D27D0080127C /* Assets.xcassets */; };
+		84F28B752A25D3D70080127C /* MixpanelServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F28B742A25D3D70080127C /* MixpanelServiceTableViewController.swift */; };
+		84F28B772A25D6F50080127C /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B762A25D6F50080127C /* LoopKit.framework */; };
+		84F28B7C2A25D7000080127C /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B7A2A25D7000080127C /* LoopKit.framework */; };
+		84F28B7E2A25D7000080127C /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F28B7B2A25D7000080127C /* LoopKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849523C12A25DD1E003AC2FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F28B0F2A25CB0F0080127C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F28B1A2A25CB350080127C;
+			remoteInfo = MixpanelServiceKit;
+		};
+		849523C52A25DD1E003AC2FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F28B0F2A25CB0F0080127C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F28B272A25CB600080127C;
+			remoteInfo = MixpanelServiceKitUI;
+		};
+		84F28B3E2A25CB850080127C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F28B0F2A25CB0F0080127C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F28B1A2A25CB350080127C;
+			remoteInfo = MixpanelServiceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		849523C72A25DD1E003AC2FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				849523C02A25DD1E003AC2FD /* MixpanelServiceKit.framework in Embed Frameworks */,
+				849523C42A25DD1E003AC2FD /* MixpanelServiceKitUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		849523B62A25DCD3003AC2FD /* MixpanelServiceKitPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixpanelServiceKitPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		849523C82A25E0D6003AC2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixpanelServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F28B1E2A25CB350080127C /* MixpanelServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelServiceKit.h; sourceTree = "<group>"; };
+		84F28B282A25CB600080127C /* MixpanelServiceKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixpanelServiceKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F28B2A2A25CB600080127C /* MixpanelServiceKitUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixpanelServiceKitUI.h; sourceTree = "<group>"; };
+		84F28B582A25CC760080127C /* MixpanelServiceKitPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelServiceKitPlugin.swift; sourceTree = "<group>"; };
+		84F28B5C2A25CCB00080127C /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		84F28B612A25CCE80080127C /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		84F28B652A25CD0F0080127C /* MixpanelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelService.swift; sourceTree = "<group>"; };
+		84F28B672A25D1950080127C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		84F28B6A2A25D1D80080127C /* IdentifiableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
+		84F28B6C2A25D1F40080127C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		84F28B6E2A25D20E0080127C /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		84F28B702A25D2480080127C /* MixpanelService+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixpanelService+UI.swift"; sourceTree = "<group>"; };
+		84F28B722A25D27D0080127C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F28B742A25D3D70080127C /* MixpanelServiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelServiceTableViewController.swift; sourceTree = "<group>"; };
+		84F28B762A25D6F50080127C /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F28B7A2A25D7000080127C /* LoopKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F28B7B2A25D7000080127C /* LoopKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoopKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849523B32A25DCD3003AC2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849523BF2A25DD1E003AC2FD /* MixpanelServiceKit.framework in Frameworks */,
+				849523C32A25DD1E003AC2FD /* MixpanelServiceKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B182A25CB350080127C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B502A25CC040080127C /* Mixpanel in Frameworks */,
+				84F28B772A25D6F50080127C /* LoopKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B252A25CB600080127C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B3C2A25CB850080127C /* MixpanelServiceKit.framework in Frameworks */,
+				84F28B7C2A25D7000080127C /* LoopKit.framework in Frameworks */,
+				84F28B7E2A25D7000080127C /* LoopKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849523B72A25DCD3003AC2FD /* MixpanelServiceKitPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				849523C82A25E0D6003AC2FD /* Info.plist */,
+				84F28B582A25CC760080127C /* MixpanelServiceKitPlugin.swift */,
+			);
+			path = MixpanelServiceKitPlugin;
+			sourceTree = "<group>";
+		};
+		84F28B0E2A25CB0F0080127C = {
+			isa = PBXGroup;
+			children = (
+				84F28B5B2A25CCA50080127C /* Extentions */,
+				84F28B5A2A25CC9D0080127C /* Common */,
+				84F28B1D2A25CB350080127C /* MixpanelServiceKit */,
+				84F28B292A25CB600080127C /* MixpanelServiceKitUI */,
+				849523B72A25DCD3003AC2FD /* MixpanelServiceKitPlugin */,
+				84F28B1C2A25CB350080127C /* Products */,
+				84F28B3B2A25CB850080127C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F28B1C2A25CB350080127C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */,
+				84F28B282A25CB600080127C /* MixpanelServiceKitUI.framework */,
+				849523B62A25DCD3003AC2FD /* MixpanelServiceKitPlugin.loopplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F28B1D2A25CB350080127C /* MixpanelServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B1E2A25CB350080127C /* MixpanelServiceKit.h */,
+				84F28B652A25CD0F0080127C /* MixpanelService.swift */,
+				84F28B672A25D1950080127C /* Localizable.strings */,
+			);
+			path = MixpanelServiceKit;
+			sourceTree = "<group>";
+		};
+		84F28B292A25CB600080127C /* MixpanelServiceKitUI */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B2A2A25CB600080127C /* MixpanelServiceKitUI.h */,
+				84F28B702A25D2480080127C /* MixpanelService+UI.swift */,
+				84F28B742A25D3D70080127C /* MixpanelServiceTableViewController.swift */,
+				84F28B6A2A25D1D80080127C /* IdentifiableClass.swift */,
+				84F28B6E2A25D20E0080127C /* NibLoadable.swift */,
+				84F28B692A25D1BA0080127C /* Extentions */,
+				84F28B722A25D27D0080127C /* Assets.xcassets */,
+			);
+			path = MixpanelServiceKitUI;
+			sourceTree = "<group>";
+		};
+		84F28B3B2A25CB850080127C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B7A2A25D7000080127C /* LoopKit.framework */,
+				84F28B7B2A25D7000080127C /* LoopKitUI.framework */,
+				84F28B762A25D6F50080127C /* LoopKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F28B5A2A25CC9D0080127C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B612A25CCE80080127C /* LocalizedString.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84F28B5B2A25CCA50080127C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B5C2A25CCB00080127C /* OSLog.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		84F28B692A25D1BA0080127C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				84F28B6C2A25D1F40080127C /* UIColor.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		849523B12A25DCD3003AC2FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B162A25CB350080127C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B1F2A25CB350080127C /* MixpanelServiceKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B232A25CB600080127C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B2B2A25CB600080127C /* MixpanelServiceKitUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		849523B52A25DCD3003AC2FD /* MixpanelServiceKitPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849523BA2A25DCD3003AC2FD /* Build configuration list for PBXNativeTarget "MixpanelServiceKitPlugin" */;
+			buildPhases = (
+				849523B12A25DCD3003AC2FD /* Headers */,
+				849523B22A25DCD3003AC2FD /* Sources */,
+				849523B32A25DCD3003AC2FD /* Frameworks */,
+				849523B42A25DCD3003AC2FD /* Resources */,
+				849523C72A25DD1E003AC2FD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849523C22A25DD1E003AC2FD /* PBXTargetDependency */,
+				849523C62A25DD1E003AC2FD /* PBXTargetDependency */,
+			);
+			name = MixpanelServiceKitPlugin;
+			productName = MixpanelServiceKitPlugin;
+			productReference = 849523B62A25DCD3003AC2FD /* MixpanelServiceKitPlugin.loopplugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		84F28B1A2A25CB350080127C /* MixpanelServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F28B202A25CB350080127C /* Build configuration list for PBXNativeTarget "MixpanelServiceKit" */;
+			buildPhases = (
+				84F28B162A25CB350080127C /* Headers */,
+				84F28B172A25CB350080127C /* Sources */,
+				84F28B182A25CB350080127C /* Frameworks */,
+				84F28B192A25CB350080127C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixpanelServiceKit;
+			packageProductDependencies = (
+				84F28B4F2A25CC040080127C /* Mixpanel */,
+			);
+			productName = MixpanelServiceKit;
+			productReference = 84F28B1B2A25CB350080127C /* MixpanelServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84F28B272A25CB600080127C /* MixpanelServiceKitUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F28B2C2A25CB600080127C /* Build configuration list for PBXNativeTarget "MixpanelServiceKitUI" */;
+			buildPhases = (
+				84F28B232A25CB600080127C /* Headers */,
+				84F28B242A25CB600080127C /* Sources */,
+				84F28B252A25CB600080127C /* Frameworks */,
+				84F28B262A25CB600080127C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F28B3F2A25CB850080127C /* PBXTargetDependency */,
+			);
+			name = MixpanelServiceKitUI;
+			packageProductDependencies = (
+			);
+			productName = MixpanelServiceKitUI;
+			productReference = 84F28B282A25CB600080127C /* MixpanelServiceKitUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F28B0F2A25CB0F0080127C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					849523B52A25DCD3003AC2FD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					84F28B1A2A25CB350080127C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					84F28B272A25CB600080127C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 84F28B122A25CB0F0080127C /* Build configuration list for PBXProject "MixpanelService" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F28B0E2A25CB0F0080127C;
+			packageReferences = (
+				84F28B152A25CB200080127C /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+			);
+			productRefGroup = 84F28B1C2A25CB350080127C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F28B1A2A25CB350080127C /* MixpanelServiceKit */,
+				84F28B272A25CB600080127C /* MixpanelServiceKitUI */,
+				849523B52A25DCD3003AC2FD /* MixpanelServiceKitPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849523B42A25DCD3003AC2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B192A25CB350080127C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B682A25D1950080127C /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B262A25CB600080127C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B732A25D27D0080127C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849523B22A25DCD3003AC2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849523BE2A25DCFC003AC2FD /* OSLog.swift in Sources */,
+				849523BD2A25DCE9003AC2FD /* MixpanelServiceKitPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B172A25CB350080127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B632A25CCF10080127C /* LocalizedString.swift in Sources */,
+				84F28B662A25CD0F0080127C /* MixpanelService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F28B242A25CB600080127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F28B6B2A25D1D80080127C /* IdentifiableClass.swift in Sources */,
+				84F28B6F2A25D20E0080127C /* NibLoadable.swift in Sources */,
+				84F28B712A25D2480080127C /* MixpanelService+UI.swift in Sources */,
+				84F28B6D2A25D1F40080127C /* UIColor.swift in Sources */,
+				84F28B642A25CCF20080127C /* LocalizedString.swift in Sources */,
+				84F28B752A25D3D70080127C /* MixpanelServiceTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849523C22A25DD1E003AC2FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F28B1A2A25CB350080127C /* MixpanelServiceKit */;
+			targetProxy = 849523C12A25DD1E003AC2FD /* PBXContainerItemProxy */;
+		};
+		849523C62A25DD1E003AC2FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F28B272A25CB600080127C /* MixpanelServiceKitUI */;
+			targetProxy = 849523C52A25DD1E003AC2FD /* PBXContainerItemProxy */;
+		};
+		84F28B3F2A25CB850080127C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F28B1A2A25CB350080127C /* MixpanelServiceKit */;
+			targetProxy = 84F28B3E2A25CB850080127C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		849523BB2A25DCD3003AC2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MixpanelServiceKitPlugin/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Debug;
+		};
+		849523BC2A25DCD3003AC2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MixpanelServiceKitPlugin/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKitPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = loopplugin;
+			};
+			name = Release;
+		};
+		84F28B132A25CB0F0080127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		84F28B142A25CB0F0080127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+		84F28B212A25CB350080127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84F28B222A25CB350080127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84F28B2D2A25CB600080127C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84F28B2E2A25CB600080127C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.MixpanelServiceKitUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849523BA2A25DCD3003AC2FD /* Build configuration list for PBXNativeTarget "MixpanelServiceKitPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849523BB2A25DCD3003AC2FD /* Debug */,
+				849523BC2A25DCD3003AC2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F28B122A25CB0F0080127C /* Build configuration list for PBXProject "MixpanelService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F28B132A25CB0F0080127C /* Debug */,
+				84F28B142A25CB0F0080127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F28B202A25CB350080127C /* Build configuration list for PBXNativeTarget "MixpanelServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F28B212A25CB350080127C /* Debug */,
+				84F28B222A25CB350080127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F28B2C2A25CB600080127C /* Build configuration list for PBXNativeTarget "MixpanelServiceKitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F28B2D2A25CB600080127C /* Debug */,
+				84F28B2E2A25CB600080127C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84F28B152A25CB200080127C /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84F28B4F2A25CC040080127C /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84F28B152A25CB200080127C /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84F28B0F2A25CB0F0080127C /* Project object */;
+}

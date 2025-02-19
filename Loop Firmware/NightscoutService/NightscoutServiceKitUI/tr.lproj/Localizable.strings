@@ -1,0 +1,57 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API Secret";
+
+/* No comment provided by engineer. */
+"Are you sure you want to reset the secret key?" = "Gizli anahtarı sıfırlamak istediğinizden emin misiniz?";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "İptal";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Kontrol ediliyor...";
+
+/* Button title to delete a service */
+"Delete Service" = "Servisi Sil";
+
+/* No comment provided by engineer. */
+"Done" = "Tamamlandı";
+
+/* The placeholder text for the Nightscout site URL */
+"https://mysite.herokuapp.com" = "https://site_adresim.herokuapp.com";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Oturum açma";
+
+/* No comment provided by engineer. */
+"Logout" = "Oturum Kapatma";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Title on Nightscout CredentialsView */
+"Nightscout Login" = "Nightscout Oturum Açma";
+
+/* Error when nightscout service url is not set */
+"Not Available" = "Kullanılabilir değil";
+
+/* Description of ServiceStatus of checking */
+"OK" = "Tamam";
+
+/* No comment provided by engineer. */
+"One-Time Password" = "Tek Kullanımlık Parola";
+
+/* The default placeholder for required text */
+"Required" = "Gerekli";
+
+/* No comment provided by engineer. */
+"Reset Secret Key" = "Gizli Anahtarı Sıfırla";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "Nightscout URL";
+
+/* No comment provided by engineer. */
+"Status" = "Durum";
+
+/* No comment provided by engineer. */
+"URL" = "URL";
+

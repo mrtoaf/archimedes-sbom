@@ -1,0 +1,45 @@
+/* Title on AppleHealthAuthView */
+"Apple Health" = "Apple Health";
+
+/* Onboarding, Apple Health Permissions intro paragraph */
+"Apple Health can be used to store blood glucose, insulin and carbohydrate data from Loop.\n\nIf you give Loop permission, Loop can also read glucose and insulin data from glucometers and insulin pens that support Apple Health" = "Apple Health kan bruges til at gemme blodsukker-, insulin- og kulhydratdata fra Loop.\n\nHvis du giver Loop tilladelse til det, kan Loop også læse glukose- og insulindata fra glukosemålere og insulinpenne, der understøtter Apple Health";
+
+/* Descriptive text on WelcomeView */
+"Before using Loop you need to configure a few settings. These settings should be entered with precision and care; they are a critical part of how Loop determines the right amount of insulin to deliver.\n\nIf you are new to Loop, work with your diabetes support team to determine the settings that work best for you." = "Før du bruger Loop, skal du konfigurere nogle få indstillinger. Disse indstillinger skal indtastes med præcision og omhu; de er en afgørende del af den måde, hvorpå Loop bestemmer den rette mængde insulin, der skal gives.\n\nHvis du er ny med Loop, skal du samarbejde med dit diabetessupportteam for at finde de indstillinger, der fungerer bedst for dig.";
+
+/* Button title for skipping setting import from nightscout */
+"Do Not Import Settings" = "Importér ikke indstillinger";
+
+/* Button title for choosing to import settings from nightscout */
+"Import Saved Settings" = "Importer gemte indstillinger";
+
+/* Button title for starting setup */
+"Let's Go!" = "Lad os komme igang!";
+
+/* Descriptive text on OnboardingChooserView */
+"Loop can work with Nightscout to provide remote caregivers a way to see what Loop is doing. Nightscout use is completely optional with Loop, and you can always set it up later." = "Loop kan arbejde sammen med Nightscout for at give pårørende og sundhedspersonale en måde at se, hvad Loop laver. Brugen af Nightscout er helt valgfri med Loop, og du kan altid konfigurere det senere.";
+
+/* Title on OnboardingChooserView */
+"Nightscout" = "Nightscout";
+
+/* Therapy settings save button title */
+"Save Settings" = "Gem indstillinger";
+
+/* Title on ImportSettingsView */
+"Settings Found" = "Indstillinger fundet";
+
+/* Button title for choosing onboarding without nightscout */
+"Setup Loop without Nightscout" = "Indstil Loop UDEN Nightscout";
+
+/* Button title for starting apple health permissions request */
+"Share With Apple Health" = "Del med Apple Health";
+
+/* Button title for choosing onboarding with nightscout */
+"Use Nightscout with Loop" = "Brug Nightscout med Loop";
+
+/* Format string for main guidance text on ImportSettingsView (1: age of settings) */
+"We've detected Loop settings stored in your Nightscout! They were last updated %1$@. Would you like to import them?\n\nAfter importing, you will still need to review the imported settings in the following screens and verify that they are correct." = "Vi har fundet Loop-indstillinger gemt i din Nightscout! De blev senest opdateret %1$@. Vil du gerne importere dem?\n\nNår du har importeret, skal du stadig gennemgå de importerede indstillinger på de følgende skærmbilleder og kontrollere, at de er korrekte.";
+
+/* Title on WelcomeView */
+"Welcome to Loop" = "Velkommen til Loop";
+

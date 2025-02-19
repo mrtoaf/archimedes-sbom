@@ -1,0 +1,36 @@
+/* The title of the Nightscout API secret */
+"API Secret" = "API Secret";
+
+/* Button text to cancel Nightscout credential input */
+"Cancel" = "Zrušiť";
+
+/* Description of ServiceStatus of checking */
+"Checking..." = "Kontroluje sa...";
+
+/* Button title to delete a service */
+"Delete Service" = "Odstrániť službu";
+
+/* No comment provided by engineer. */
+"Done" = "Hotovo";
+
+/* Button text to login on Nightscout CredentialsView */
+"Login" = "Prihlásiť sa";
+
+/* No comment provided by engineer. */
+"Logout" = "Odhlásiť sa";
+
+/* No comment provided by engineer. */
+"Nightscout" = "Nightscout";
+
+/* Description of ServiceStatus of checking */
+"OK" = "OK";
+
+/* The default placeholder for required text */
+"Required" = "Povinné";
+
+/* The title of the Nightscout site URL */
+"Site URL" = "URL adresa webu";
+
+/* No comment provided by engineer. */
+"Status" = "Stav";
+

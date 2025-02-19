@@ -1,0 +1,46 @@
+/* The title of the Nightscout API secret credential */
+"API Secret" = "API Secret";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this CGM?" = "Bist Du sicher, dass Du das CGM löschen möchtest?";
+
+/* Button text to Cancel in Nightscout Disclaimer view */
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"CGM Settings" = "CGM Einstellungen";
+
+/* (No Comment) */
+"Close" = "Schließen";
+
+/* Button text to Continue in Nightscout Disclaimer view */
+"Continue" = "Weiter";
+
+/* (No Comment) */
+"Delete CGM" = "Lösche CGM";
+
+/* No comment provided by engineer. */
+"Done" = "Fertig";
+
+/* The title of the Nightscout service
+   Title for the CGMManager option */
+"Nightscout Remote CGM" = "Nightscout Remote-CGM";
+
+/* (No Comment) */
+"Service Description" = "Die Nightscout Remote CGM-Quelle nutzt Deine CGM-Daten von Nightscout und stellt sie in Loop zur Verfügung. Dies ist nützlich, wenn Du Deine CGM-Gerät nicht zu Loop hinzufügen kannst, Deine CGM-Daten aber auf Nightscout verfügbar sind. \n\nAufgrund des Risikos von Netzwerkausfällen und der fehlenden Hintergrundunterstützung der App wird die Verwendung zur Therapie nicht empfohlen.";
+
+/* No comment provided by engineer. */
+"Status" = "Status";
+
+/* (No Comment) */
+"Upload to remote service" = "Zum Remote-Service hochladen";
+
+/* The title of the Nightscout API server URL credential */
+"URL" = "URL";
+
+/* (No Comment) */
+"Use glucose filter" = "Benutze Glukosefilter";
+
+/* (No Comment) */
+"Use Kalman filter to smooth out a sensor noise." = "Benutze Kalmanfilter um das Rauschen des Sensors zu glätten.";
+
