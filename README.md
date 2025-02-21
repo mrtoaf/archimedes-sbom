@@ -2,9 +2,9 @@
 
 This repository provides a tutorial for generating a Software Bill of Materials (SBOM) for [Tidepool Loop](https://github.com/LoopKit/Loop) using [Anchore Syft](https://github.com/anchore/syft) and viewing it with the SBOM File Viewer.
 
-[Loop](https://loopkit.github.io/loopdocs/) is an patient-led, open source, insulin dosing application for iOS developed by [Tidepool](https://www.tidepool.org/).
+[Loop](https://loopkit.github.io/loopdocs/) is a patient-led, open source, insulin dosing application for iOS developed by [Tidepool](https://www.tidepool.org/).
 
-[Anchore](https://anchore.com/) Syft, an open source SBOM generation tool that can output standard formats (e.g., [SPDX](https://spdx.dev/) or [CycloneDX](https://cyclonedx.org/)) by scanning a container or repository.
+[Anchore](https://anchore.com/) Syft is an open source SBOM generation tool that can output standard formats (e.g., [SPDX](https://spdx.dev/) or [CycloneDX](https://cyclonedx.org/)) by scanning a container or repository.
 
 ## Prerequisites
 
@@ -43,6 +43,20 @@ Run the following command to install Syft and place the binary in `/usr/local/bi
 - **-b**: Specify a custom installation directory (defaults to `./bin`)
 - **-d**: More verbose logging levels (`-d` for debug, `-dd` for trace)
 - **-v**: Verify the signature of the downloaded artifact before installation (requires cosign to be installed)
+
+> **Note:** If you encounter a permission error when writing to `/usr/local/bin`, you have two options:
+>
+> 1. **Use sudo** to grant the necessary permissions:
+>
+>        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sudo sh -s -- -b /usr/local/bin
+>
+> 2. **Install locally** by specifying the current directory:
+>
+>        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b .
+>
+>    Then, run Syft with:
+>
+>        ./syft . -o cyclonedx-json > sbom.json
 
 ### 4. Generate the SBOM
 
