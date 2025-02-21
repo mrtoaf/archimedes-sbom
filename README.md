@@ -53,6 +53,10 @@ Run the following command to install Syft and place the binary in `/usr/local/bi
 > 2. **Install locally** by specifying the current directory:
 >
 >        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b .
+>
+>    Then, run Syft with:
+>
+>        ./syft . -o cyclonedx-json > sbom.json
 
 ### 4. Generate the SBOM
 
