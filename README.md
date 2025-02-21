@@ -44,7 +44,7 @@ Run the following command to install Syft and place the binary in `/usr/local/bi
 - **-d**: More verbose logging levels (`-d` for debug, `-dd` for trace)
 - **-v**: Verify the signature of the downloaded artifact before installation (requires cosign to be installed)
 
-> **Note:** If you encounter a permission error when writing to `/usr/local/bin`, you have two options:
+> **Note:** If you encounter a MacOS permission error when writing to `/usr/local/bin`, you have two options:
 >
 > 1. **Use sudo** to grant the necessary permissions:
 >
