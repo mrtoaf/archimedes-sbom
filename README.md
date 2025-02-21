@@ -50,6 +50,9 @@ Run the following command to install Syft and place the binary in `/usr/local/bi
 >
 >        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sudo sh -s -- -b /usr/local/bin
 >
+>    **Why use sudo?**  
+>    This option installs Syft system-wide in `/usr/local/bin`, making it easily accessible from any terminal session. It is ideal if you want a global installation and are comfortable using elevated permissions.
+>
 > 2. **Install locally** by specifying the current directory:
 >
 >        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b .
@@ -57,7 +60,10 @@ Run the following command to install Syft and place the binary in `/usr/local/bi
 >    Then, run Syft with:
 >
 >        ./syft . -o cyclonedx-json > sbom.json
-
+>
+>    **Why install locally?**  
+>    This option avoids using sudo by installing Syft in your current directory. It is useful if you do not have permission to write to `/usr/local/bin` or prefer to keep the binary contained within the project directory. Just remember to prefix the command with `./` when running it.
+    
 ### 4. Generate the SBOM
 
 Run the following command to generate an SBOM in CycloneDX JSON format from the Loop Firmware folder:
